@@ -102,9 +102,6 @@ const GameControls: React.FC<GameControlsProps> = ({
         <button style={buttonStyle} onClick={onUndo}>Undo</button>
         {children && <span style={{ marginLeft: 8 }}>{children}</span>}
       </div>
-      <div style={{ marginTop: '10px', color: '#888', fontSize: '14px' }}>
-        <span>Use keyboard or swipe to move</span>
-      </div>
     </div>
   );
 };
